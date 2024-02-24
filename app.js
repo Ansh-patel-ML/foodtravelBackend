@@ -32,7 +32,7 @@ const Users = mongoose.connection.collection("users");
 
 mongoose
   .connect(
-    "mongodb+srv://patelansh883:ANSHbaki1@cluster0.stomhvd.mongodb.net/saga"
+    ""
   )
   .then(() => {
     console.log("MongoDB connected");
